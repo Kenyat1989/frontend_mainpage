@@ -1,52 +1,50 @@
-#header{
-	header{
-		z-index: 1;
-		position: fixed;
-		height: 80px;
-		width: 100%;
-		margin-bottom: 0;
-		margin-right: -15px;
-		margin-left: 0px;
-		background-color: rgba(52, 152, 219,.3);
-		a{
+header{
+	z-index: 1;
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	margin-bottom: 0;
+	margin-right: -15px;
+	margin-left: 0px;
+	background-color: rgba(52, 152, 219,.3);
+	a{
 		float: left;
 		font-size: 24px;
 		font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
 		color: #ffffff;
 		position:relative;
 		text-decoration: none;
-		}
-		img{
-			width: auto;
-	    max-height: 65px;
-	    margin: 6px 50px 6 70px;
-		}
-		nav{
+	}
+	img{
+		width: auto;
+	  max-height: 65px;
+	  margin: 6px 50px 6 70px;
+	}
+	nav{
+		padding-top: 0px;
+		padding-left: 30px;
+	  margin: 12px 10px 10 40px;
+	  float: right;
+		position: relative;
+		ul{
+			width: 100%;
 			padding-top: 0px;
-			padding-left: 30px;
-	    margin: 12px 10px 10 40px;
+	    margin-right: -16px;
 	    float: right;
-			position: relative;
-			ul{
-				width: 100%;
-				padding-top: 0px;
-		    margin-right: -16px;
-		    float: right;
-		    list-style-type: disc;
-		    -webkit-margin-before: 1em;
-		    -webkit-margin-after: 1em;
-		    -webkit-margin-start: 0px;
-		    -webkit-margin-end: 0px;
-		    -webkit-padding-start: 40px;
-			}
-			li{
-				display: inline-block;
-				float: left;
-				padding-right: 20px;
-		    margin-top: 0px;
-    		display: block;
-				white-space: nowrap;
-			}
+		  list-style-type: disc;
+		  -webkit-margin-before: 1em;
+	    -webkit-margin-after: 1em;
+	    -webkit-margin-start: 0px;
+		  -webkit-margin-end: 0px;
+		  -webkit-padding-start: 40px;
+		}
+		li{
+			display: inline-block;
+			float: left;
+			padding-right: 20px;
+	    margin-top: 0px;
+    	display: block;
+			white-space: nowrap;
 		}
 	}
 }
